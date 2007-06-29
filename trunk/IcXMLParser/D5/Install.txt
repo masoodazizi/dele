@@ -1,0 +1,9 @@
+
+Installation steps:
+
+1. Select menu Component/Install packages
+2. Press Add button and select file parsdpk.bpl
+3. Press Ok button
+4. Modify LibraryPath: menu Tools/Environment options/Library
+5. Move unit dsgnintf.dcu to delphi library directory if you non't 
+   have it. 
