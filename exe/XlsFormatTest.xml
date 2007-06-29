@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<RangeFormats>
+<!--  Define colors which you'd like to use  -->	<Colors>
+<!-- ItemID = "Colors name" Value= textcolor or hexadecimal $00FFFF  -->		<Color ItemID="Color1" Value="$00158860" />
+		<Color ItemID="Color2" Value="$00F18800" />
+		<Color ItemID="Color3" Value="clRed" />
+		<Color ItemID="Color4" Value="clLime" />
+	</Colors>
+<!--  Define borders which you'd like to use  -->	<Borders>
+<!-- ItemID = "Border name" Color="Color from Colors section" --><!-- Style :  xlContinuous = $00000001;  xlDash = $FFFFEFED;  xlDashDot = $00000004;  xlDashDotDot = $00000005;  xlDot = $FFFFEFEA;  xlDouble = $FFFFEFE9;  xlSlantDashDot = $0000000D;  xlLineStyleNone = $FFFFEFD2; --><!-- Weight :   xlHairline = $00000001;  xlMedium = $FFFFEFD6;  xlThick = $00000004;  xlThin = $00000002;  -->		<Border ItemID="Border1" Color="Color3" Style="1" Weight="$00000001" />
+		<Border ItemID="Border2" Color="Color3" Style="$FFFFEFED" Weight="$FFFFEFD6" />
+		<Border ItemID="Border3" Color="Color4" Style="$FFFFEFE9" Weight="$00000004" />
+	</Borders>
+<!--  Define fonts which you'd like to use  -->	<Fonts>
+		<Font ItemID="Font1" Name="Tahoma" Color="Color1" Size="12" Bold="True" Italic="False" />
+	</Fonts>
+<!--  Define range's formats which you'd like to use  -->	<Ranges>
+		<Range ItemID="Range1">
+			<RangeName>E3:F4</RangeName>
+			<InteriorColor>Color1</InteriorColor>
+			<RangeFont>Font1</RangeFont>
+<!--  XlBordersIndex/Item :  xlInsideHorizontal = $0000000C;  xlInsideVertical = $0000000B;  xlDiagonalDown = $00000005;  xlDiagonalUp = $00000006;  xlEdgeBottom = $00000009;  xlEdgeLeft = $00000007;  xlEdgeRight = $0000000A;  xlEdgeTop = $00000008; -->			<RangeBorders>
+				<RangeBorder Item="7">Border1</RangeBorder>
+				<RangeBorder Item="9">Border2</RangeBorder>
+			</RangeBorders>
+<!--  Row and Col width/height WIDTH_HIDE    = -1; WIDTH_AUTOFIT = -2;  WIDTH_DEFAULT = 0; -->
+			<RangeRowHeight>-1</RangeRowHeight>
+			<RangeColWidth>0</RangeColWidth>
+		</Range>
+		<Range ItemID="Range2">
+			<RangeName>A1:A2</RangeName>
+			<InteriorColor>Color2</InteriorColor>
+			<RangeFont>Font1</RangeFont>
+			<RangeBorders>
+				<RangeBorder Item="5">Border1</RangeBorder>
+				<RangeBorder Item="7">Border2</RangeBorder>
+				<RangeBorder Item="9">Border3</RangeBorder>
+				<RangeBorder Item="12">Border2</RangeBorder>
+			</RangeBorders>
+			<RangeRowHeight>10</RangeRowHeight>
+			<RangeColWidth>20</RangeColWidth>
+		</Range>
+	</Ranges>
+</RangeFormats>

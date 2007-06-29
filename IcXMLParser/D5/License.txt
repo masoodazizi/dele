@@ -1,0 +1,47 @@
+XML Parser License Agreement
+Copyright © 1999 ICOM Datenverarbeitungs GmbH, all rights reserved.
+
+
+
+By using the software product ("XML Parser") contained in this package, you
+agree to the terms and condition of this license agreement.
+
+
+
+Permission is given to the licensee ("you") of this product to use the
+development version of this software (without source code) under Delphi or
+C++ Builder on as many computers as you want at a time, and to make backup
+copies. You are allowed to redistribute the software (without source code)
+for free, provided that you conspicuously and appropriately publish on each
+copy an appropriate copyright notice and disclaimer of warranty; keep intact
+all the notices that refer to this license and to the absence of any warranty;
+and give any other recipients of the program a copy of this license along
+with the program. 
+
+If the product's source code is purchased, permission is given to the licensee
+to use the source code under Delphi or C++ Builder on one computer at a time.
+You may utilize and/or modify this product for use in your compiled
+applications. You may distribute and sell any product, which results from using
+this product in your applications, except a product of similar nature. You may
+NOT redistribute any source code that may be included with this product.
+
+You may use the product and the related source code to create new components for
+use within your company or to create a Windows program (executable file created
+by Delphi or C++ Builder). The resulting .EXE file may be distributed via
+freeware, shareware or any commercial means of sale or distribution, but you
+are NOT allowed to redistribute any file which this product consists of. This
+applies also to files created by any degree of modification of the files which
+this product consists of.
+
+You may not create new components for distribution outside your company, via
+freeware, shareware or any commercial product offering, based on this product.
+
+This product is sold "as is", without warranty, implied or expressed. While
+every effort is made to ensure that this product and its documentation are free
+of defects, ICOM Datenverarbeitungs GmbH shall not be held responsible for any
+loss of profit or any other commercial damage, including, but not limited to
+special, incidental, consequential or other damages occasioned by the use of
+this product.
+
+
+
